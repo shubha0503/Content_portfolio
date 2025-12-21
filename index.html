@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curated for your thoughts, with ours.</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Intro overlay -->
+    <div class="intro-overlay" id="introOverlay">
+        <div class="intro-content">
+            <p class="intro-line-1">Welcome to my abode.</p>
+            <p class="intro-line-2">Stay if you feel something.</p>
+        </div>
+        <button class="intro-skip" id="skipIntro">Skip</button>
+    </div>
+
+    <!-- Grain texture overlay -->
+    <div class="grain"></div>
+    
+    <!-- Navigation -->
+    <nav class="nav" id="mainNav">
+        <div class="nav-logo">shubha.</div>
+        <div class="nav-links">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#writing" class="nav-link">Writing</a>
+            <a href="#experience" class="nav-link">Experience</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section id="home" class="hero">
+        <div class="hero-image-container">
+            <img id="heroImage" src="img1.jpg" class="hero-image" alt="Illustrated avatar" />
+            <div class="hero-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="reveal-line-1">Curated for</span>
+                <span class="reveal-line-2">your thoughts,</span>
+                <span class="reveal-line-3">with ours.</span>
+            </h1>
+            <p class="hero-subtitle reveal-fade">In a world where everything feels a little too real, this space exists to let thoughts and words breathe into life.</p>
+            <button class="hero-cta reveal-fade-delayed">Enter quietly</button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section about-section">
+        <div class="floating-doodles">
+            <span class="doodle star">✨</span>
+            <span class="doodle pen">✍️</span>
+            <span class="doodle coffee">☕</span>
+            <span class="doodle sparkle">✨</span>
+            <span class="doodle heart">💭</span>
+        </div>
+        <div class="container-wide">
+            <div class="about-split">
+                <div class="about-illustration">
+                    <img src="img11.png" alt="Avatar" class="about-avatar">
+                </div>
+                <div class="about-text-container">
+                    <h2 class="section-title-small fade-in">About</h2>
+                    <div class="about-lines">
+                        <p class="about-line">I am a writer and a teach student,</p>
+                        <p class="about-line">trying to mix two important parts of life—</p>
+                        <p class="about-line">learning and expression.</p>
+                        <p class="about-line">This space is not about authority or answers.</p>
+                        <p class="about-line">Think of it as a quiet friendship.</p>
+                        <p class="about-line-accent">Learning and unlearning, together.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Writing section with video -->
+    <section id="writing" class="section writing-section">
+        <video class="section-bg-video" id="writingVideo" autoplay loop muted playsinline>
+            <source src="/placeholder.svg" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="floating-doodles">
+            <span class="doodle book">📖</span>
+            <span class="doodle quill">🖋️</span>
+            <span class="doodle leaf">🍃</span>
+            <span class="doodle moon">🌙</span>
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title-editorial fade-in">Writing</h2>
+                <button class="random-btn">Read Something Random</button>
+            </div>
+            
+            <div class="editorial-grid">
+                <!-- Your cards here -->
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/imperfectly-perfect-thoughts-60ab8423e6ae">
+                    <div class="card-inner">
+                        <span class="card-number">01</span>
+                        <h3 class="card-title">Imperfectly Perfect Thoughts</h3>
+                        <p class="card-excerpt">Unfinished reflections on faith, womanhood, love, identity, and becoming.</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/how-are-you-doing-7fef09760a08">
+                    <div class="card-inner">
+                        <span class="card-number">02</span>
+                        <h3 class="card-title">How Are You Doing??…</h3>
+                        <p class="card-excerpt">On the weight of everyday words, just there to check on you.</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/her-f377b2aadd49">
+                    <div class="card-inner">
+                        <span class="card-number">03</span>
+                        <h3 class="card-title">Unfinished…</h3>
+                        <p class="card-excerpt">Just a piece of work,for you to think for me to figure out for work and think together.</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/to-the-silence-that-screams-back-7153842ec547">
+                    <div class="card-inner">
+                        <span class="card-number">04</span>
+                        <h3 class="card-title">To the Silence That Screams Back</h3>
+                        <p class="card-excerpt">Silent battles, and healing in unseen ways which are mostly remained unsaid .</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/home-away-from-home-dffdcb2aae0b">
+                    <div class="card-inner">
+                        <span class="card-number">05</span>
+                        <h3 class="card-title">Home Away From Home</h3>
+                        <p class="card-excerpt">On finding family in unexpected places and in unexpected moments,be grateful.</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/a-letter-to-self-2b5604f9a758">
+                    <div class="card-inner">
+                        <span class="card-number">06</span>
+                        <h3 class="card-title">A Letter to Self</h3>
+                        <p class="card-excerpt">A gentle reminder to trust the process, embrace imperfections, and grow without abandoning yourself.</p>
+                    </div>
+                </article>
+
+                <article class="editorial-card card-small" data-article-url="https://medium.com/@shubhasin05/aging-ageing-263376036b8c">
+                    <div class="card-inner">
+                        <span class="card-number">07</span>
+                        <h3 class="card-title">Aging / Ageing</h3>
+                        <p class="card-excerpt">For those who are with you, always, one of my piece very close to my heart.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience section with video -->
+    <section id="experience" class="section experience-section">
+        <video class="section-bg-video" id="experienceVideo" autoplay loop muted playsinline>
+            <source src="/placeholder.svg" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="floating-doodles">
+            <span class="doodle star">✨</span>
+            <span class="doodle pen">✍️</span>
+            <span class="doodle coffee">☕</span>
+            <span class="doodle sparkle">✨</span>
+            <span class="doodle heart">💭</span>
+        </div>
+        <div class="container">
+            <h2 class="section-title fade-in">Experience</h2>
+            
+            <div class="experience-content fade-in">
+                <div class="experience-card">
+                    <div class="experience-icon"></div>
+                    <div class="experience-details">
+                        <div class="experience-header">
+                            <div>
+                                <h3 class="experience-title">Content Writing Intern</h3>
+                                <p class="experience-company">Kraaft Entertainment</p>
+                            </div>
+                            <span class="experience-period">February 2024 – Present (Remote)</span>
+                        </div>
+                        <ul class="experience-list">
+                            <li>Creating engaging scripts, stories, and content concepts</li>
+                            <li>Proposing creative ideas to improve brand presence and audience engagement on social media</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact section with video -->
+    <section id="contact" class="section contact-section">
+        <video class="section-bg-video" id="contactVideo" autoplay loop muted playsinline>
+            <source src="/placeholder.svg" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="floating-doodles">
+            <span class="doodle envelope">✉️</span>
+            <span class="doodle sparkle-alt">✨</span>
+            <span class="doodle wave">👋</span>
+        </div>
+        <div class="container-narrow">
+            <h2 class="section-title-small fade-in">Contact</h2>
+            <p class="contact-text fade-in">
+                If something here stayed with you,<br>feel free to write.
+            </p>
+            <div class="contact-links fade-in">
+                <a href="mailto:shubhasin05@gmail.com" class="contact-card">
+                    <span class="contact-icon">📧</span>
+                    <span class="contact-label">Email</span>
+                </a>
+                <a href="https://medium.com/@shubhasin05" target="_blank" class="contact-card">
+                    <span class="contact-icon">✍️</span>
+                    <span class="contact-label">Medium</span>
+                </a>
+                <a href="https://www.linkedin.com/in/shubha-singh-10915528a/" target="_blank" class="contact-card">
+                    <span class="contact-icon">💼</span>
+                    <span class="contact-label">LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Where thoughts and words breathe into life</p>
+    </footer>
+
+    <!-- Audio element for background music -->
+    <audio id="backgroundMusic" loop style="display: none;">
+        <!-- Audio sources will be added by JavaScript -->
+    </audio>
+
+    <!-- Sound toggle -->
+    <button class="sound-toggle" id="soundToggle" aria-label="Toggle ambient sound">
+        <svg class="sound-on" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+        </svg>
+        <svg class="sound-off" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+            <line x1="23" y1="9" x2="17" y2="15"></line>
+            <line x1="17" y1="9" x2="23" y2="15"></line>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
