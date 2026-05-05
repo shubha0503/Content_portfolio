@@ -156,4 +156,4 @@ GitHub: https://github.com/shubha0503
 
 This project is open-source and available for educational and personal use.
 
-If you found this project useful, consider giving it a star ⭐
+If you found this project useful, consider giving it a star 
