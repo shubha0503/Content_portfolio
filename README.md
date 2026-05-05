@@ -25,6 +25,15 @@ It serves as a foundational portfolio-style website that can be extended into a 
 
 ---
 
+## 📂 How it looks
+
+<img width="1913" height="848" alt="image" src="https://github.com/user-attachments/assets/f56435f1-a21d-47ed-ab2a-c24cf8db8b08" />
+<img width="1905" height="732" alt="image" src="https://github.com/user-attachments/assets/8c97fa1d-93fa-4bec-9c1e-cd290fcaff8a" />
+<img width="1896" height="836" alt="image" src="https://github.com/user-attachments/assets/b7a191de-8d6c-413d-ad80-96f66f400a8c" />
+<img width="1904" height="848" alt="image" src="https://github.com/user-attachments/assets/347a42fa-aba8-4381-925b-66cd888559b2" />
+
+---
+
 ## 🛠️ Technologies Used
 
 The project is built using:
